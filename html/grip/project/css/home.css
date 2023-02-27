@@ -34,3 +34,8 @@ body{
     position: absolute;
     z-index: 10;
 }
+@media only screen and (max-width: 480px){
+    img{
+        width: 10   0px;
+        height: 100px;
+    }
