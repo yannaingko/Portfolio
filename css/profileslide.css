@@ -311,4 +311,8 @@
       padding-right: 80px;
       height: 10px;
     }
+    .preloader{
+      top: 30%;
+      left: 17%;
+    }
   }
