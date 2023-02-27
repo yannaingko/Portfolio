@@ -49,6 +49,17 @@ $(document).ready(function() {
     });
 
     });
+// for scroll android
+    var lastScrollTop = 0;
+    $(window).scroll(function(event){
+    var st = $(this).scrollTop();
+    if (st > lastScrollTop){
+       // downscroll code
+    } else {
+      // upscroll code
+    }
+    lastScrollTop = st;
+    });
 
 // for loading screen
 
@@ -152,15 +163,4 @@ wordflick1();
 });
 $(document).ready(function () {
 wordflick2();
-});
-// for scroll android
-var lastScrollTop = 0;
-$(window).scroll(function(event){
-var st = $(this).scrollTop();
-if (st > lastScrollTop){
-   // downscroll code
-} else {
-  // upscroll code
-}
-lastScrollTop = st;
 });
